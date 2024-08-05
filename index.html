@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style/style.css">
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            background-image: url(assets/header.png);
+          }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Generate a <span id="pass">Random password</span></h1>
+        <input type="text" placeholder="Enter the length of the password" id="len">
+        <div class="display">
+            <input type="text" id="password" placeholder="Password">
+            
+        </div>
+        <button onclick="createPassword()">Generate Password</button>
+        
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
